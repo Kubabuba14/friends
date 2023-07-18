@@ -1,7 +1,14 @@
 import React from 'react';
+import './Hell.css';
+
 class Hello extends React.Component{
     render() {
-        return <h1>Hello World!</h1>
+        return (
+        <div className='f1 tc'>
+        <h1>Hello World!</h1>
+        <p>Welcome to React</p>
+        </div>
+        );
     }
 }
 
